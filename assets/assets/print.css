@@ -1,0 +1,52 @@
+/* line 2, ../../../app/assets/stylesheets/print.css.scss */
+#global-header a#logo {
+  display: block;
+  font-size: 24pt;
+  line-height: 1.11111;
+  font-weight: bold;
+}
+
+/* line 8, ../../../app/assets/stylesheets/print.css.scss */
+input {
+  display: block;
+}
+
+/* line 11, ../../../app/assets/stylesheets/print.css.scss */
+button, a, ul.navigation-list, .section-tabs, .pager {
+  display: none;
+}
+
+/* line 15, ../../../app/assets/stylesheets/print.css.scss */
+.filing-history #company-type-and-creation-date, .filing-history #company-status, .filing-history .filters {
+  display: none;
+}
+
+/* line 19, ../../../app/assets/stylesheets/print.css.scss */
+article table {
+  width: 100%;
+  text-align: left;
+}
+/* line 22, ../../../app/assets/stylesheets/print.css.scss */
+article table td, article table td:nth-child(n+2) {
+  text-align: left;
+}
+
+/* line 29, ../../../app/assets/stylesheets/print.css.scss */
+table tr th {
+  text-align: left;
+  padding: 5px;
+}
+/* line 32, ../../../app/assets/stylesheets/print.css.scss */
+table tr th.date {
+  padding-left: 0;
+}
+/* line 36, ../../../app/assets/stylesheets/print.css.scss */
+table tr td {
+  text-align: left;
+  vertical-align: top;
+  padding: 5px;
+}
+/* line 40, ../../../app/assets/stylesheets/print.css.scss */
+table tr td.date {
+  padding-left: 0;
+}
